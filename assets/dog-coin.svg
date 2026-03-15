@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <defs>
+    <linearGradient id="dbody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e85c00"/>
+      <stop offset="100%" style="stop-color:#c84800"/>
+    </linearGradient>
+    <linearGradient id="dcoin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4fd8"/>
+      <stop offset="50%" style="stop-color:#c84dff"/>
+      <stop offset="100%" style="stop-color:#7b2fff"/>
+    </linearGradient>
+  </defs>
+  <!-- Coins flying -->
+  <circle cx="80" cy="100" r="28" fill="url(#dcoin)" stroke="#ffe97b" stroke-width="4" opacity="0.9"/>
+  <circle cx="320" cy="80" r="22" fill="url(#dcoin)" stroke="#ffe97b" stroke-width="3" opacity="0.85"/>
+  <circle cx="50" cy="220" r="20" fill="url(#dcoin)" stroke="#ffe97b" stroke-width="3" opacity="0.8"/>
+  <circle cx="340" cy="200" r="25" fill="url(#dcoin)" stroke="#ffe97b" stroke-width="4" opacity="0.9"/>
+  <circle cx="310" cy="350" r="18" fill="url(#dcoin)" stroke="#ffe97b" stroke-width="3" opacity="0.7"/>
+  <!-- Body -->
+  <ellipse cx="200" cy="380" rx="88" ry="108" fill="url(#dbody)"/>
+  <ellipse cx="200" cy="400" rx="53" ry="68" fill="#fff8f0"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="235" rx="88" ry="78" fill="url(#dbody)"/>
+  <ellipse cx="200" cy="250" rx="50" ry="46" fill="#fff8f0"/>
+  <!-- Ears -->
+  <ellipse cx="132" cy="195" rx="33" ry="42" fill="#c84800" transform="rotate(-15 132 195)"/>
+  <ellipse cx="268" cy="195" rx="33" ry="42" fill="#c84800" transform="rotate(15 268 195)"/>
+  <!-- Eyes -->
+  <circle cx="177" cy="228" r="13" fill="#2d1500"/>
+  <circle cx="223" cy="228" r="13" fill="#2d1500"/>
+  <circle cx="182" cy="223" r="5" fill="white"/>
+  <circle cx="228" cy="223" r="5" fill="white"/>
+  <!-- Nose -->
+  <ellipse cx="200" cy="260" rx="11" ry="8" fill="#1a0800"/>
+  <path d="M189 271 Q200 282 211 271" fill="none" stroke="#1a0800" stroke-width="3" stroke-linecap="round"/>
+  <!-- Coin in mouth -->
+  <circle cx="200" cy="290" r="22" fill="url(#dcoin)" stroke="#ffe97b" stroke-width="4"/>
+  <!-- Paw raised with coin -->
+  <ellipse cx="305" cy="330" rx="32" ry="26" fill="url(#dbody)"/>
+  <circle cx="318" cy="306" r="20" fill="url(#dcoin)" stroke="#ffe97b" stroke-width="3"/>
+  <!-- Sparkles -->
+  <text x="60" y="160" font-size="22" fill="#ffe97b">✦</text>
+  <text x="310" y="140" font-size="18" fill="#ffe97b">✦</text>
+  <text x="100" y="300" font-size="16" fill="#ffe97b">✦</text>
+  <!-- Tail -->
+  <path d="M278 460 Q250 520 275 555" fill="none" stroke="url(#dbody)" stroke-width="26" stroke-linecap="round"/>
+  <!-- Legs -->
+  <ellipse cx="167" cy="468" rx="21" ry="48" fill="url(#dbody)"/>
+  <ellipse cx="233" cy="468" rx="21" ry="48" fill="url(#dbody)"/>
+  <ellipse cx="167" cy="514" rx="25" ry="13" fill="#fff8f0"/>
+  <ellipse cx="233" cy="514" rx="25" ry="13" fill="#fff8f0"/>
+</svg>

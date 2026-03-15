@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="lpg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4fd8"/>
+      <stop offset="50%" style="stop-color:#c84dff"/>
+      <stop offset="100%" style="stop-color:#7b2fff"/>
+    </linearGradient>
+    <linearGradient id="lpgold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffe97b"/>
+      <stop offset="100%" style="stop-color:#ffbe20"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="url(#lpg)" stroke="url(#lpgold)" stroke-width="10"/>
+  <!-- PREMIUM crown -->
+  <polygon points="100,230 130,150 160,200 200,120 240,200 270,150 300,230" fill="url(#lpgold)" stroke="#c88600" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Stars on crown -->
+  <circle cx="100" cy="230" r="10" fill="#ffe97b"/>
+  <circle cx="200" cy="120" r="14" fill="#ffe97b"/>
+  <circle cx="300" cy="230" r="10" fill="#ffe97b"/>
+  <!-- PREMIUM text -->
+  <text x="200" y="285" text-anchor="middle" font-size="26" font-weight="900" fill="url(#lpgold)" font-family="sans-serif" letter-spacing="4">PREMIUM</text>
+  <!-- Inner glow -->
+  <circle cx="200" cy="200" r="80" fill="none" stroke="rgba(255,233,123,0.2)" stroke-width="3"/>
+</svg>
